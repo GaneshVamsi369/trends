@@ -36,12 +36,6 @@ class LoginForm extends Component {
   submitForm = async event => {
     event.preventDefault()
     let {username, password} = this.state
-    if (username === 'lucifer') {
-      username = 'rahul'
-    }
-    if (password === 'lucifer') {
-      password = 'rahul@2021'
-    }
     const userDetails = {username, password}
     const url = 'https://apis.ccbp.in/login'
     const options = {
@@ -71,7 +65,7 @@ class LoginForm extends Component {
           className="password-input-field"
           value={password}
           onChange={this.onChangePassword}
-          placeholder="Enter 'lucifer' to login"
+          placeholder="Enter password to login"
         />
       </>
     )
@@ -91,7 +85,7 @@ class LoginForm extends Component {
           className="username-input-field"
           value={username}
           onChange={this.onChangeUsername}
-          placeholder="Enter 'lucifer' to login"
+          placeholder="Enter username to login"
         />
       </>
     )
@@ -108,7 +102,7 @@ class LoginForm extends Component {
     return (
       <div className="login-form-container">
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+          src="https://res.cloudinary.com/ddcnijufj/image/upload/v1726029871/Screenshot_2024-09-11_101216_quj6oh.png"
           className="login-website-logo-mobile-img"
           alt="website logo"
         />
@@ -119,7 +113,7 @@ class LoginForm extends Component {
         />
         <form className="form-container" onSubmit={this.submitForm}>
           <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            src="https://res.cloudinary.com/ddcnijufj/image/upload/v1726029871/Screenshot_2024-09-11_101216_quj6oh.png"
             className="login-website-logo-desktop-img"
             alt="website logo"
           />

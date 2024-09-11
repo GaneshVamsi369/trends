@@ -26,7 +26,7 @@
 .search-input {
   background-color: #f1f5f9;
   color: #0f172a;
-  font-family: 'Roboto';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: 500;
   border: none;
@@ -42,7 +42,7 @@
 
 .category-heading {
   color: #12022f;
-  font-family: 'Roboto';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   font-weight: 700;
   margin-top: 24px;
@@ -72,7 +72,7 @@
 
 .category-name {
   color: #64748b;
-  font-family: 'Roboto';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
 }
 
@@ -88,7 +88,7 @@
 
 .rating-heading {
   color: #12022f;
-  font-family: 'Roboto';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   font-weight: 700;
   margin-top: 32px;
@@ -119,7 +119,7 @@
 
 .and-up {
   color: #64748b;
-  font-family: Roboto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   margin-left: 10px;
   margin-bottom: 0;
@@ -140,7 +140,7 @@
 .clear-filters-btn {
   background-color: #ffffff;
   color: #0967d2;
-  font-family: 'Roboto';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 10px;
   font-weight: 700;
   border-radius: 4px;
